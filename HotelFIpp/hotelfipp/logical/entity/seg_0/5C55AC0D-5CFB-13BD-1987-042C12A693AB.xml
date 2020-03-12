@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C55AC0D-5CFB-13BD-1987-042C12A693AB" name="comanda">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-12 14:10:28 UTC</createdTime>
+<ownerDesignName>hotelfipp</ownerDesignName>
+<engineerTo>
+<item key="2A60FC2C-C24A-1F54-AE9A-3346240CB942" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="com_cod" id="2E004026-525E-ED1E-6F47-248AD945CDEF">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-12 14:26:22 UTC</createdTime>
+<ownerDesignName>hotelfipp</ownerDesignName>
+<engineerTo>
+<item key="2A60FC2C-C24A-1F54-AE9A-3346240CB942" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="che_cod" id="2324D2BD-6458-C842-5557-5BA3755643E7">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-12 19:00:34 UTC</createdTime>
+<generatorID>0BE624E0-68C8-B774-031C-ED0A97C6C5CC</generatorID>
+<ownerDesignName>hotelfipp</ownerDesignName>
+<engineerTo>
+<item key="2A60FC2C-C24A-1F54-AE9A-3346240CB942" value="true"/>
+</engineerTo>
+<referedAttribute>0CABF3D1-67DF-8153-BCE8-D846B4D3F707</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="67BE9CB7-2558-7531-296A-1A1E4EAB453A" name="comanda PK">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-12 14:26:28 UTC</createdTime>
+<ownerDesignName>hotelfipp</ownerDesignName>
+<engineerTo>
+<item key="2A60FC2C-C24A-1F54-AE9A-3346240CB942" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2E004026-525E-ED1E-6F47-248AD945CDEF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

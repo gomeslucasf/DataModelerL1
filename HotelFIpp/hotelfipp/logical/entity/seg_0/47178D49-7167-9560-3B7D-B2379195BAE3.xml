@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="47178D49-7167-9560-3B7D-B2379195BAE3" name="categoria">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-12 13:58:49 UTC</createdTime>
+<ownerDesignName>hotelfipp</ownerDesignName>
+<engineerTo>
+<item key="2A60FC2C-C24A-1F54-AE9A-3346240CB942" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cat_cod" id="D5A4C6DC-C259-20B2-71F7-2BA84DE74DBD">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-12 14:25:45 UTC</createdTime>
+<ownerDesignName>hotelfipp</ownerDesignName>
+<engineerTo>
+<item key="2A60FC2C-C24A-1F54-AE9A-3346240CB942" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="10C1CB5B-131F-E1F7-E696-C04D4FF363E6" name="categoria PK">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-12 14:25:54 UTC</createdTime>
+<ownerDesignName>hotelfipp</ownerDesignName>
+<engineerTo>
+<item key="2A60FC2C-C24A-1F54-AE9A-3346240CB942" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D5A4C6DC-C259-20B2-71F7-2BA84DE74DBD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

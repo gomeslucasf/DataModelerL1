@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="50F54E27-E6FC-DEE9-8930-0FAEE408FB02" name="itens_comanda">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-12 18:54:48 UTC</createdTime>
+<ownerDesignName>hotelfipp</ownerDesignName>
+<engineerTo>
+<item key="2A60FC2C-C24A-1F54-AE9A-3346240CB942" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="com_cod" id="12517540-8ABB-B7EC-58E4-A6C4559D187F">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-12 18:55:20 UTC</createdTime>
+<generatorID>0B12BFAC-23EC-4C32-7B8D-9A77D2BE6581</generatorID>
+<ownerDesignName>hotelfipp</ownerDesignName>
+<engineerTo>
+<item key="2A60FC2C-C24A-1F54-AE9A-3346240CB942" value="true"/>
+</engineerTo>
+<referedAttribute>2E004026-525E-ED1E-6F47-248AD945CDEF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="con_cod" id="2EBBB9EA-6122-B9C3-8FAF-94BA219F51F7">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-12 18:55:35 UTC</createdTime>
+<generatorID>99EC8A9B-BF6C-5D39-03CF-11322B41E498</generatorID>
+<ownerDesignName>hotelfipp</ownerDesignName>
+<engineerTo>
+<item key="2A60FC2C-C24A-1F54-AE9A-3346240CB942" value="true"/>
+</engineerTo>
+<referedAttribute>864E1A5E-9832-95CB-BD21-BD024A22D98A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
