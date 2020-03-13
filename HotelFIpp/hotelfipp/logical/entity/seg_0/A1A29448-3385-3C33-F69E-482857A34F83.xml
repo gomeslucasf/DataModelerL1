@@ -39,6 +39,19 @@
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="che_cod" id="C03FB461-00EB-41FF-2D31-6C60D42BD87D">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-13 03:24:24 UTC</createdTime>
+<generatorID>010301D4-CD16-F761-8117-473D5BD92907</generatorID>
+<ownerDesignName>hotelfipp</ownerDesignName>
+<engineerTo>
+<item key="2A60FC2C-C24A-1F54-AE9A-3346240CB942" value="true"/>
+</engineerTo>
+<referedAttribute>0CABF3D1-67DF-8153-BCE8-D846B4D3F707</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="7308DE74-D854-DE4B-56F5-51DDCDAA95FC" name="ligacoes PK">

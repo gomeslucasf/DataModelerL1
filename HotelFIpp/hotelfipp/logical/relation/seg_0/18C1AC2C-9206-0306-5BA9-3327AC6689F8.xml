@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_18" directorySegmentName="seg_0" id="18C1AC2C-9206-0306-5BA9-3327AC6689F8">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-13 03:30:39 UTC</createdTime>
+<ownerDesignName>hotelfipp</ownerDesignName>
+<engineerTo>
+<item key="2A60FC2C-C24A-1F54-AE9A-3346240CB942" value="true"/>
+</engineerTo>
+<sourcePk>F26083BE-A498-3CB8-CB2E-85A37377CA2E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1FE6C07E-BBA4-1960-E6B5-7B1BA191AA92</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>445F2BB2-DF58-8D2B-4822-2DFBFE083AA7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
