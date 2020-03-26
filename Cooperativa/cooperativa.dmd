@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="cooperativa" id="4BB46FDF-1FFB-EB1C-BA77-C46054691579" version="3.5">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-26 17:40:05 UTC</createdTime>
+<ownerDesignName>cooperativa</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4BB46FDF-1FFB-EB1C-BA77-C46054691579</designId>
+</OSDM_Design>
