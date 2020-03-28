@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CACF9A7A-932F-9329-2F19-53743E95BACD" name="itens_pedidos">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-28 15:11:26 UTC</createdTime>
+<ownerDesignName>cooperativa</ownerDesignName>
+<engineerTo>
+<item key="B885A50C-CEA0-3EDF-EB30-03A16567AD3F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ite_codigo" id="2CF069DF-6776-3380-D3C8-3405F55B0588">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-28 22:03:38 UTC</createdTime>
+<generatorID>3482EA65-5F8A-01F9-86BD-69532765C387</generatorID>
+<ownerDesignName>cooperativa</ownerDesignName>
+<engineerTo>
+<item key="B885A50C-CEA0-3EDF-EB30-03A16567AD3F" value="true"/>
+</engineerTo>
+<referedAttribute>96433B8B-DFDA-2827-2245-3BD6E795C7BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ped_codigo" id="ED42F36C-70AC-A8E6-5F14-C5D5FDFDFDDA">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-28 22:03:47 UTC</createdTime>
+<generatorID>B8379656-6820-F80C-C45A-531C8F1914DC</generatorID>
+<ownerDesignName>cooperativa</ownerDesignName>
+<engineerTo>
+<item key="B885A50C-CEA0-3EDF-EB30-03A16567AD3F" value="true"/>
+</engineerTo>
+<referedAttribute>66CEAE9E-8521-B131-CBA0-3FC650374B22</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ite_ped_quantidade" id="96FD9311-D04A-5055-1ACC-0E8E7E6A780A">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-28 22:24:22 UTC</createdTime>
+<ownerDesignName>cooperativa</ownerDesignName>
+<engineerTo>
+<item key="B885A50C-CEA0-3EDF-EB30-03A16567AD3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ite_ped_valor" id="C5DB1CCE-8B49-9252-6F3F-DB30DB164455">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-28 22:24:36 UTC</createdTime>
+<ownerDesignName>cooperativa</ownerDesignName>
+<engineerTo>
+<item key="B885A50C-CEA0-3EDF-EB30-03A16567AD3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

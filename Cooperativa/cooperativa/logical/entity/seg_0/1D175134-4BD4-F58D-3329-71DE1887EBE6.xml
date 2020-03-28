@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1D175134-4BD4-F58D-3329-71DE1887EBE6" name="mensalidade">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-26 20:59:39 UTC</createdTime>
+<ownerDesignName>cooperativa</ownerDesignName>
+<engineerTo>
+<item key="B885A50C-CEA0-3EDF-EB30-03A16567AD3F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="men_codigo" id="6FF4DC6C-68C8-A915-7A4A-4D65433605F8">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-28 14:48:52 UTC</createdTime>
+<ownerDesignName>cooperativa</ownerDesignName>
+<engineerTo>
+<item key="B885A50C-CEA0-3EDF-EB30-03A16567AD3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="men_dat_emissao" id="CC49F912-9471-859F-6F83-74C28BC4EF59">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-28 14:49:00 UTC</createdTime>
+<ownerDesignName>cooperativa</ownerDesignName>
+<engineerTo>
+<item key="B885A50C-CEA0-3EDF-EB30-03A16567AD3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="men_valor" id="3AD209FF-7CFF-47C6-51B8-2E68886E137E">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-28 14:49:09 UTC</createdTime>
+<ownerDesignName>cooperativa</ownerDesignName>
+<engineerTo>
+<item key="B885A50C-CEA0-3EDF-EB30-03A16567AD3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="men_dat_vencimento" id="09BD3EE3-BEF4-151F-DD31-DF8564C8DB58">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-28 14:49:14 UTC</createdTime>
+<ownerDesignName>cooperativa</ownerDesignName>
+<engineerTo>
+<item key="B885A50C-CEA0-3EDF-EB30-03A16567AD3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="men_status" id="8898DAB7-340B-8436-285A-83E6AD6652EB">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-28 14:49:16 UTC</createdTime>
+<ownerDesignName>cooperativa</ownerDesignName>
+<engineerTo>
+<item key="B885A50C-CEA0-3EDF-EB30-03A16567AD3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pes_cod" id="6CD046CB-DF5E-7973-6CC3-65F3749C7EEF">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-28 21:42:52 UTC</createdTime>
+<generatorID>5C0A3932-1D54-9E88-E3F9-D62035D7606D</generatorID>
+<ownerDesignName>cooperativa</ownerDesignName>
+<engineerTo>
+<item key="B885A50C-CEA0-3EDF-EB30-03A16567AD3F" value="true"/>
+</engineerTo>
+<referedAttribute>0FEB692F-A051-1CE8-6792-B7092A525574</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CF185B87-5D85-A52D-EE67-BD1014059F76" name="mensalidade PK">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-28 14:48:59 UTC</createdTime>
+<ownerDesignName>cooperativa</ownerDesignName>
+<engineerTo>
+<item key="B885A50C-CEA0-3EDF-EB30-03A16567AD3F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6FF4DC6C-68C8-A915-7A4A-4D65433605F8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

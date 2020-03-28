@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D35EA1AB-9135-4929-58A1-53392EBD9FCF" name="itens_lista">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-26 23:39:32 UTC</createdTime>
+<ownerDesignName>cooperativa</ownerDesignName>
+<engineerTo>
+<item key="B885A50C-CEA0-3EDF-EB30-03A16567AD3F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="lis_codigo" id="74444697-9A59-559C-F0DB-0E66D690E786">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-28 21:41:51 UTC</createdTime>
+<generatorID>051BABE8-E2B7-C001-ADEF-EEDAA71075C6</generatorID>
+<ownerDesignName>cooperativa</ownerDesignName>
+<engineerTo>
+<item key="B885A50C-CEA0-3EDF-EB30-03A16567AD3F" value="true"/>
+</engineerTo>
+<referedAttribute>42C4362D-67CE-6237-0521-95C53703AFB6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ite_codigo" id="8F02650A-EBFC-BF64-90DB-E1AAF852EB32">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-28 21:41:59 UTC</createdTime>
+<generatorID>E1FF1423-FF53-E519-59E8-06BEAEFDE3A5</generatorID>
+<ownerDesignName>cooperativa</ownerDesignName>
+<engineerTo>
+<item key="B885A50C-CEA0-3EDF-EB30-03A16567AD3F" value="true"/>
+</engineerTo>
+<referedAttribute>96433B8B-DFDA-2827-2245-3BD6E795C7BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ite_ped_quantidade" id="32EE5115-7BFE-5FEB-6E7D-58C8448AEAA4">
+<createdBy>Gomes</createdBy>
+<createdTime>2020-03-28 22:27:13 UTC</createdTime>
+<ownerDesignName>cooperativa</ownerDesignName>
+<engineerTo>
+<item key="B885A50C-CEA0-3EDF-EB30-03A16567AD3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
