@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="830F90F8-E112-3455-03A3-7812C4A07F1B" name="proc_carencia">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:29:46 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dias_carencia" id="914BBF79-BEDE-4E89-DEE4-8EA73854EB40">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:30:29 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grupo_proc_gpr_cod" id="D0E36B88-073C-00B9-E73E-426AB22B7550">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:30:34 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AD7B464-199A-E26B-CD26-4333D8620561" referredColumn="ABBA9930-C44C-4B04-3AA1-FE58B859321C"/>
+</associations>
+</Column>
+<Column name="planos_pla_cod" id="2E5C5021-7416-F950-042B-771FEBF25CEE">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:30:44 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FAC94EC9-C0B2-AD6C-EC67-97115E1CAD74" referredColumn="9C7F0989-B571-C9B1-E843-7A9F975902EE"/>
+</associations>
+</Column>
+<Column name="qtde_por_ano" id="520A0B80-C78C-45B4-4F46-3B16826E2FD8">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:31:59 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED81E350-6E3A-A33F-4B2F-AB4ED3CDD33B" name="proc_carencia_grupo_proc_FK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:30:34 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0E36B88-073C-00B9-E73E-426AB22B7550"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E413B46F-4336-5AD2-0517-76E40AFD3391" name="proc_carencia_planos_FK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:30:44 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E5C5021-7416-F950-042B-771FEBF25CEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77D41FC3-FC83-832F-8A81-D7CB7FAD8487" name="instit_conv_contrato">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:39:56 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="icc_cod" id="5B2C28FD-D2CD-AF7B-715D-68925EF8837D">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:41:01 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="icc_data_abert" id="2035F498-0773-6EC8-6D42-3F246478B75B">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:41:01 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="icc_data_fecha" id="35516F05-874B-E4C9-5CD4-DD48528F737E">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:41:01 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="instit_conv_icv_cod" id="B344B74A-2F3C-C8AD-FA68-B81A564996AA">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:41:16 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E811EA6B-36BE-14DE-870F-916A27D0CE3C" referredColumn="104F14A3-B7B8-7979-4815-C2DAAE266D13"/>
+</associations>
+</Column>
+<Column name="espec_prof_esp_cod" id="DDEFCB57-3B08-839E-CA2A-1CB61D50497A">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:44:22 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFEC944D-58F6-5948-3795-C30AD812271A" referredColumn="9CBF01E7-25DF-F04F-FB0C-24447E728824"/>
+</associations>
+</Column>
+<Column name="categ_prof_ctp_cod" id="5C2A11B1-EA35-73A0-BF0E-2B8A5B052C6B">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:44:47 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="205DABDA-2060-EB66-F27F-BD5A4BBDE3AF" referredColumn="7A5215B4-661A-C153-C33E-20601BA7CF04"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE62E3E9-F4CD-3A64-B167-0D0B1124C994" name="instit_conv_contrato_PK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:41:01 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B2C28FD-D2CD-AF7B-715D-68925EF8837D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A0869B3-FAAB-ECCF-DBB5-0ABCD8A88732" name="instit_conv_contrato_instit_conv_FK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:41:16 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B344B74A-2F3C-C8AD-FA68-B81A564996AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30E2C29F-9904-03CB-43E4-84BB36B1F194" name="instit_conv_contrato_espec_prof_FK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:44:22 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDEFCB57-3B08-839E-CA2A-1CB61D50497A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DD5C0A1-C28D-6769-A3FB-3EADAE35CF23" name="instit_conv_contrato_categ_prof_FK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:44:47 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C2A11B1-EA35-73A0-BF0E-2B8A5B052C6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

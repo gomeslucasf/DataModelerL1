@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9713031B-D6C3-A630-7D8A-4DCB5CC09416" name="pla_valores">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:33:08 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="plv_valor" id="573EC9EB-A629-07FE-7AD3-711B938736AD">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:35:02 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plv_idade_min" id="BEB7E8FB-F9C2-10D0-3D8D-EB725CEB7B2B">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:35:02 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plv_idade_max" id="D5819ADF-C1BC-05C3-62A0-76693225CC55">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:35:02 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="planos_pla_cod" id="C0DBEE29-25DA-E6F3-B04F-E863759058E9">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:35:06 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F3BE156-303C-2C62-9988-94C7BF18CC90" referredColumn="9C7F0989-B571-C9B1-E843-7A9F975902EE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52A2DC3B-DABB-E02A-D07E-3286047E203D" name="pla_valores_planos_FK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:35:06 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0DBEE29-25DA-E6F3-B04F-E863759058E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

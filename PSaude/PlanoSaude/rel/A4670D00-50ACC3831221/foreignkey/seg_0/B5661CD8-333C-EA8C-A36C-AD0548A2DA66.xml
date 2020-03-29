@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B5661CD8-333C-EA8C-A36C-AD0548A2DA66" containerWithKeyObject="A95308CA-0188-4493-0FBB-881603BBAF75" localFKIndex="62F132E9-8C0B-0108-697C-0AC5CB8AB2D8" name="proc_realizados_procedimentos_FK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:23:13 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<referredTableLongName>procedimentos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A5B3482E-40A2-1430-6272-2398A64512C6</referredTableID>
+<keyObject>A9749653-30D7-76B3-14D5-F7BCD2898F2D</keyObject>
+<referredKeyID>A9749653-30D7-76B3-14D5-F7BCD2898F2D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pro_cod</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

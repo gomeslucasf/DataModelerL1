@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5900C02-E97F-1100-6084-619C2804CC86" name="dependentes_contrato">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:17:20 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="contratos_con_cod" id="A44867A9-63F2-4527-4B60-2D489815D8FC">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:17:41 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C84A1AD0-D871-C6E5-73CA-5B54B4657175" referredColumn="CDF1321C-3BAE-5391-B1D8-A77C4BE1F16E"/>
+</associations>
+</Column>
+<Column name="usuarios_usu_cod" id="8103220C-C859-220F-9499-1CB90DAFA8A0">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:17:50 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F7DDAA6-B62F-4443-1539-2EF6D21CD45A" referredColumn="0B23B127-84C2-6E4A-3514-6F6D7E474E1C"/>
+</associations>
+</Column>
+<Column name="dep_cod" id="BB1F98AE-8FCD-62AF-AF9A-17738590CC3D">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:23:51 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB03B35E-D8AB-E45E-CB8B-2B5AF85CBFE0" name="dependentes_contrato_PK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:23:51 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB1F98AE-8FCD-62AF-AF9A-17738590CC3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2D24CB6-48AD-03AD-7188-82EF2547FA5F" name="dependentes_contrato_contratos_FK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:17:41 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A44867A9-63F2-4527-4B60-2D489815D8FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2EE74E64-754D-EC16-5699-2CB08F42AE4B" name="dependentes_contrato_usuarios_FK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:17:50 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8103220C-C859-220F-9499-1CB90DAFA8A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

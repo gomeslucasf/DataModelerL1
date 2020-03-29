@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFAF37C7-E9BE-E903-7C64-F01574DC60BE" name="guias_atendidas">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:52:01 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="gt_cod" id="02E73FB7-5072-F35B-8C9E-55DB227CDFF7">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:52:59 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gt_valor_total" id="10A54EF3-CDBE-8F70-6CA6-2743B84231D5">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:52:59 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="guia_atendimento_gat_cod" id="D1C90475-590B-F0C2-E727-3C6E19D09DFC">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:53:05 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3F7EDF6-3AE2-F722-AF5C-BC8E6B8D251C" referredColumn="0AFE30FD-154E-6CDB-7A26-8849F643289E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE15369B-1ED3-F36B-CBC2-786D82086ADA" name="guias_atendidas_PK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:52:59 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02E73FB7-5072-F35B-8C9E-55DB227CDFF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA13A136-63F6-EA47-18BF-F02CE1658992" name="guias_atendidas_guia_atendimento_FK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:53:05 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1C90475-590B-F0C2-E727-3C6E19D09DFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

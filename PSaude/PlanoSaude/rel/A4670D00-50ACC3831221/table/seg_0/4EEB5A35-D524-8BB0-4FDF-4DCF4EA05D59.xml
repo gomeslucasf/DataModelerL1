@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4EEB5A35-D524-8BB0-4FDF-4DCF4EA05D59" name="planos">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 18:57:05 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pla_cod" id="9C7F0989-B571-C9B1-E843-7A9F975902EE">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 18:58:01 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pla_nome" id="C6A2F296-259E-031C-EB9E-E86F155EE0A4">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 18:58:01 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5153ED6D-B3B0-6335-66BF-DEDD860B2DAB" name="planos_PK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 18:58:58 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C7F0989-B571-C9B1-E843-7A9F975902EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

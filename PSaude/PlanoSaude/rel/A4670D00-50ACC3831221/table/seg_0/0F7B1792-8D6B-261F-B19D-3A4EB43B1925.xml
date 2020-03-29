@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F7B1792-8D6B-261F-B19D-3A4EB43B1925" name="mensalidades_pagas">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:53:57 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mpg_cod" id="C1754EB4-032A-24C7-2EB1-CE9725EAE000">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:54:48 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mpg_data" id="047BEF9B-2549-D45E-ECAF-7DEAFE0A19A5">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:54:48 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mpg_valor_pago" id="456FD17B-35F7-A312-CC8F-DB74EE02AFD5">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:54:48 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuarios_usu_cod" id="B9BC57F9-D53E-B9D3-4BD2-68C0449423B5">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:55:32 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEEDB7B7-21BC-3DB5-CA6B-B817B413FA77" referredColumn="0B23B127-84C2-6E4A-3514-6F6D7E474E1C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58D5A058-1137-017E-1D3A-3B12B1088C11" name="mensalidades_pagas_PK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:54:48 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1754EB4-032A-24C7-2EB1-CE9725EAE000"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="654F119F-6B5E-8405-BF8D-C4BAD30768F5" name="mensalidades_pagas_usuarios_FK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:55:32 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9BC57F9-D53E-B9D3-4BD2-68C0449423B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

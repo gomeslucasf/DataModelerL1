@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CBE0F669-009A-324B-79DC-A2932D422F31" name="instit_conv">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:38:18 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="icv_cod" id="104F14A3-B7B8-7979-4815-C2DAAE266D13">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:39:25 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="icv_cnpj" id="1024A105-B710-D33F-657B-989B75BCEB5A">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:39:25 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="icv_crm" id="350C319C-81A9-3CD1-7C34-63D984C753F0">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:39:25 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4C20D47-C93E-8CF2-0A4E-5CDD9253B674" name="instit_conv_PK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:39:25 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="104F14A3-B7B8-7979-4815-C2DAAE266D13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

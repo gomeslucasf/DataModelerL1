@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0BCF429-FA30-9DD0-6612-9C4BAFD3E08A" name="guia_atendimento">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:48:25 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="gat_cod" id="0AFE30FD-154E-6CDB-7A26-8849F643289E">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:49:02 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gat_data" id="69053289-293E-2512-F86A-683E3D3C829D">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:49:02 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="instit_conv_icv_cod" id="67D5763A-DA84-6DAF-7678-F846A9355EDB">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:49:14 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B720C6D9-D416-34D5-96F4-2783A61DC0DA" referredColumn="104F14A3-B7B8-7979-4815-C2DAAE266D13"/>
+</associations>
+</Column>
+<Column name="usuarios_usu_cod" id="2BA5C519-356F-8AA7-B2E9-41211CE3B1A8">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:49:37 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17969C65-75F2-9024-C842-BCB432DADD3D" referredColumn="0B23B127-84C2-6E4A-3514-6F6D7E474E1C"/>
+</associations>
+</Column>
+<Column name="procedimentos_pro_cod" id="89D4038C-D11D-57C0-C347-847047394111">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:50:13 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="162ADA0D-17F3-95EF-3FCB-39301DCEB945" referredColumn="DFE22812-AB30-A0CA-0656-1F5D1C9B51E5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D079D2C-65D4-3098-7640-3BC0CDD7D263" name="guia_atendimento_PK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:49:02 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AFE30FD-154E-6CDB-7A26-8849F643289E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="172EC5D5-1917-400D-1D93-75F215289D2C" name="guia_atendimento_instit_conv_FK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:49:14 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67D5763A-DA84-6DAF-7678-F846A9355EDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF683E6D-25AB-B8E2-CFC8-8208EC9A52CC" name="guia_atendimento_usuarios_FK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:49:37 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BA5C519-356F-8AA7-B2E9-41211CE3B1A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9FEF39C-82C0-903F-9337-1FD8964D64F5" name="guia_atendimento_procedimentos_FK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:50:13 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89D4038C-D11D-57C0-C347-847047394111"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

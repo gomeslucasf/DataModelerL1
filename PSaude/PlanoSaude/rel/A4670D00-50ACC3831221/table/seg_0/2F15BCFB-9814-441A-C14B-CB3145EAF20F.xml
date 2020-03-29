@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F15BCFB-9814-441A-C14B-CB3145EAF20F" name="icv_pagos">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:55:50 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ipg_cod" id="073E59CA-1A91-E1E5-9CDD-A8A85E4AB319">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:56:52 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ipg_data" id="D58915FC-2DFB-D071-DB9B-47B29B7141BF">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:56:52 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ipg_valor_pago" id="040C50D8-4763-4EFA-BAD2-86831B75F53F">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:56:52 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="instit_conv_icv_cod" id="9BCF471F-3197-6F36-CD20-C3E0D6D681E2">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:57:09 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E94025DD-5D31-3BE7-08B1-EDC28DB1F492" referredColumn="104F14A3-B7B8-7979-4815-C2DAAE266D13"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B14EE36E-429B-9D34-F660-81D8F83D0797" name="icv_pagos_PK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:56:52 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="073E59CA-1A91-E1E5-9CDD-A8A85E4AB319"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26A5300D-97AC-4A16-7808-29217058C22F" name="icv_pagos_instit_conv_FK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:57:09 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BCF471F-3197-6F36-CD20-C3E0D6D681E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

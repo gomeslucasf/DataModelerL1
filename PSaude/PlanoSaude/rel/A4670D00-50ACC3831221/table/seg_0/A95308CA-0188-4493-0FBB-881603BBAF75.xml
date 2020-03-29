@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A95308CA-0188-4493-0FBB-881603BBAF75" name="proc_realizados">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:21:48 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pre_codigo" id="1F16FD7D-0E3B-956D-E789-0B291F28421F">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:23:04 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pre_valor_custo" id="B92D72C7-D2D3-9955-DE26-258712DA26F7">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:23:04 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pre_data_realizado" id="E72A8D07-AA36-4C20-D0DE-EB915CE4BED8">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:23:04 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="procedimentos_pro_cod" id="74F7E3DA-E795-7E57-2EE8-ED1351DF97E8">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:23:13 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5661CD8-333C-EA8C-A36C-AD0548A2DA66" referredColumn="DFE22812-AB30-A0CA-0656-1F5D1C9B51E5"/>
+</associations>
+</Column>
+<Column name="dependentes_contrato_dep_cod" id="FE5563F9-7A42-4D7F-9E58-0AB1BC212DC9">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:24:05 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5BF75D0-0F2D-91D9-974D-3CE1DD539B48" referredColumn="BB1F98AE-8FCD-62AF-AF9A-17738590CC3D"/>
+</associations>
+</Column>
+<Column name="guia_atendimento_gat_cod" id="0499B236-01D6-508B-B52A-BD4B6335721C">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:51:19 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F37CBEF-FF23-3E24-F9F7-96B253AC54CE" referredColumn="0AFE30FD-154E-6CDB-7A26-8849F643289E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9FA17471-E279-850C-33CD-559E47A655D6" name="proc_realizados_PK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:23:04 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F16FD7D-0E3B-956D-E789-0B291F28421F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62F132E9-8C0B-0108-697C-0AC5CB8AB2D8" name="proc_realizados_procedimentos_FK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:23:13 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74F7E3DA-E795-7E57-2EE8-ED1351DF97E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="725590A5-25E2-9D0F-AC97-5906814BA3A5" name="proc_realizados_dependentes_contrato_FK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:24:05 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE5563F9-7A42-4D7F-9E58-0AB1BC212DC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F06373E-E95F-57D1-364A-5AAE01D4DC0F" name="proc_realizados_guia_atendimento_FK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:51:19 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0499B236-01D6-508B-B52A-BD4B6335721C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

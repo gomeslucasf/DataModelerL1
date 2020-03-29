@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EADAF7CF-B73D-7CFC-B181-D6291A0EC5D0" name="espec_prof">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:43:16 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="esp_cod" id="9CBF01E7-25DF-F04F-FB0C-24447E728824">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:43:53 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="esp_nome" id="92785938-AEE6-C14C-57D6-21686D2E34D6">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:43:53 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E895665F-6FC9-6F3A-65F2-2138D2D327B4" name="espec_prof_PK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:43:53 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CBF01E7-25DF-F04F-FB0C-24447E728824"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

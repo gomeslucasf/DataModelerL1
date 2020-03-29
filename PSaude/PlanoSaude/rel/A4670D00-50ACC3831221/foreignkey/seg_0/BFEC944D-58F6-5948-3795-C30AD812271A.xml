@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BFEC944D-58F6-5948-3795-C30AD812271A" containerWithKeyObject="77D41FC3-FC83-832F-8A81-D7CB7FAD8487" localFKIndex="30E2C29F-9904-03CB-43E4-84BB36B1F194" name="instit_conv_contrato_espec_prof_FK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:44:22 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<referredTableLongName>espec_prof</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EADAF7CF-B73D-7CFC-B181-D6291A0EC5D0</referredTableID>
+<keyObject>E895665F-6FC9-6F3A-65F2-2138D2D327B4</keyObject>
+<referredKeyID>E895665F-6FC9-6F3A-65F2-2138D2D327B4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>esp_cod</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

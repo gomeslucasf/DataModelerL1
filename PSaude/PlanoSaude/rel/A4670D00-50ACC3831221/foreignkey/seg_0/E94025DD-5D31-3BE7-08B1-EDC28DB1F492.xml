@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E94025DD-5D31-3BE7-08B1-EDC28DB1F492" containerWithKeyObject="2F15BCFB-9814-441A-C14B-CB3145EAF20F" localFKIndex="26A5300D-97AC-4A16-7808-29217058C22F" name="icv_pagos_instit_conv_FK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:57:09 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<referredTableLongName>instit_conv</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CBE0F669-009A-324B-79DC-A2932D422F31</referredTableID>
+<keyObject>C4C20D47-C93E-8CF2-0A4E-5CDD9253B674</keyObject>
+<referredKeyID>C4C20D47-C93E-8CF2-0A4E-5CDD9253B674</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>icv_cod</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

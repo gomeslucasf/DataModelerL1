@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A51195EC-1235-4586-6865-D3C1EBD831F0" name="grupo_proc">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:28:30 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="gpr_cod" id="ABBA9930-C44C-4B04-3AA1-FE58B859321C">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:29:44 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gpr_nome" id="2D5A2234-37D2-BF17-BA49-51313325F6EF">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:29:44 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="298D26CF-65A8-8468-68C5-020C1F4F1CB6" name="grupo_proc_PK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:29:44 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABBA9930-C44C-4B04-3AA1-FE58B859321C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="PlanoSaude" id="160D01BB-D00F-0FF0-06C0-BB3215A25275" version="3.5">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 18:54:41 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>160D01BB-D00F-0FF0-06C0-BB3215A25275</designId>
+</OSDM_Design>

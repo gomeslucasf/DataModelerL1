@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFFA030E-E5B5-490B-25B3-2F964AF34CD7" name="usuarios">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 18:59:32 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="usu_cod" id="0B23B127-84C2-6E4A-3514-6F6D7E474E1C">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 18:59:39 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usu_nome" id="7E5AC12F-4A76-AEBF-8CAD-2FBAF1DB44B5">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:01:43 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usu_rg" id="2D87F691-33CD-2B1C-72C3-6CA8EECFC6F9">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:01:43 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usu_cpf" id="F2520F7A-9EF5-6DAA-5A4E-DC7E2F7150BE">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:01:43 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usu_sexo" id="E0FE3854-7A22-4127-6CB6-07E221D30DD4">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:01:43 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usu_data_nasc" id="D2CA02C3-6D53-C845-2230-DA76C5BE216E">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:14:04 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="056CC91D-E4FB-F27F-AD38-B75B31492399" name="usuarios_PK">
+<createdBy>ferii</createdBy>
+<createdTime>2020-03-29 19:01:43 UTC</createdTime>
+<ownerDesignName>PlanoSaude</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B23B127-84C2-6E4A-3514-6F6D7E474E1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
